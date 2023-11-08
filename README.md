@@ -15,8 +15,11 @@ checkStatus(address _user): Enables checking the status of a specific user's mem
 
 ## Usage
 Deploy the smart contract on the Ethereum blockchain.
+
 Users can call the upgrade() function to become premium members.
+
 The access() function can be called to access premium content.
+
 To check the membership status of a particular user, use the checkStatus(address _user) function.
 
 ##  Author
