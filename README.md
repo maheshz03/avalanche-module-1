@@ -8,8 +8,10 @@ Using the {MusicSubscription} Solidity smart contract, customers can increase th
 The contract consists of the following functions:
 
 upgrade(): Allows a user to upgrade their membership to premium status.
-access(): Grants access to premium content for users with an active premium membership. It utilizes the require statement to ensure that only premium members can access premium content. If the condition is not met, the function reverts with a custom error message using the revert statement.
-checkStatus(address _user): Enables checking the status of a specific user's membership. It uses the assert statement to verify the user's premium membership status.
+
+access(): Grants access to premium content for users with an active premium membership. It utilizes the `require` statement to ensure that only premium members can access premium content. If the condition is not met, the function reverts with a custom error message using the `revert` statement.
+
+checkStatus(address _user): Enables checking the status of a specific user's membership. It uses the `assert` statement to verify the user's premium membership status.
 
 ## Usage
 Deploy the smart contract on the Ethereum blockchain.
